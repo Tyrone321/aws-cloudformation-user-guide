@@ -22,7 +22,7 @@ The `MetricDimension` property type represents a CloudWatch dimension that you s
 
 ## Properties<a name="w4ab1c21c10d132c22c30b7"></a>
 
-By default, Amazon EMR uses one dimension whose key \(known as a `Name` in CloudWatch\) is `JobFlowID` and whose value is a variable representing the cluster ID, which is `${emr.clusterId}`\. This enables the rule to bootstrap when the cluster ID becomes available\.
+By default, Amazon EMR uses one dimension whose key \(known as a `Name` in CloudWatch\) is `JobFlowId` and whose value is a variable representing the cluster ID, which is `${emr.clusterId}`\. This enables the rule to bootstrap when the cluster ID becomes available\.
 
 `Key`  <a name="cfn-elasticmapreduce-instancegroupconfig-metricdimension-key"></a>
 The dimension name\.  
